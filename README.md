@@ -70,11 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-##### How to start creating Portfolio Resume#####
-1.created repository in github
-2.In Vs code cloned the repository (connect your github in vscode so it will automaticaaly takes the repository)
-3.create react app - npx-create-react-app ./
-4.npm start
-(Git commands ---add,commit,push)
+
 
 
