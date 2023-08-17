@@ -14,8 +14,8 @@ import Paper from '@mui/material/Paper';
 import CustomButton from '../../components/Button/Button'
 
 
-
 const Resume = () => {
+  // const [formValue,submitForm] = useState('All');
   return (
     <>
     {/* About Me */}
@@ -121,6 +121,7 @@ const Resume = () => {
       </Grid>
 
       {/* contact */}
+      
       <Grid container spacing={6} className='section pt_45 p_45'>
         <Grid item xs={12} lg={7}>
           <Grid container>
@@ -128,8 +129,11 @@ const Resume = () => {
               <span></span>
               <h6 className='section_title_text'>Contact Form</h6>
             </Grid>
+           
             <Grid item xs={12}>
+            
               <Grid container spacing={3}>
+              
                 <Grid item xs={12} sm={6}>
                 <TextField id="standard-basic" label="Name" variant="standard" />
                 </Grid>
@@ -140,15 +144,23 @@ const Resume = () => {
                 <TextField id="standard-basic" label="Message" variant="standard" multiline rows={4} />
                 </Grid>
                 <Grid item xs={12}>
-                  <CustomButton text='Submit'></CustomButton>
+                
+                <CustomButton  text='Submit' ></CustomButton> 
+               
                 </Grid>
+                
               </Grid>
+              
+             
             </Grid>
+            
+            
+
           </Grid>
         </Grid>
 
         {/* contact information */}
-        <Grid item xs={12} lg={5}>
+        <Grid item xs={12} lg={5} id='contact' >
           <Grid container>
           <Grid item className='section_title mb_30'>
               <span></span>

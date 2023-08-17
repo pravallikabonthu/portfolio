@@ -9,11 +9,12 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineItem from '@mui/lab/TimelineItem';
 import CustomButton from '../Button/Button'
 import DownloadIcon from '@mui/icons-material/Download';
-
-
+import resume from '../../assets/images/Resume.pdf'
 
 
 const CustomTimelineItem =( {title,text,link}) => (
+
+
   <TimelineItem >
     <CustomTimelineSeparator/>
     <TimelineContent className="timeline_content">
@@ -61,8 +62,9 @@ const Profile = () => {
 
         </CustomTimeline>
         <div className='button_container' style={{display:'flex'}} >
-        <CustomButton text= {'Download CV'} icon= {<DownloadIcon/>}/>
-
+        <a href={resume} download={"Pravallika_Bonthu"}>
+        <CustomButton  text= {'Download CV'}  icon= {<DownloadIcon/>}/>
+          </a>
         </div>
         
     </div>  
