@@ -42,3 +42,15 @@ link(Gallery-ui) :  https://www.npmjs.com/package/react-image-gallery
 deploy the code:
     1.firebase init
     2.firebase deploy
+1.npm install -g firebase-tools or (sudo npm install -g firebase-tools)
+    if you want to login differemt account and use firebase logout
+2.firebase login
+3.select hosting operations
+4.select public : build
+5.configure as single page app: yes
+6.set up automatic builds with github: no
+7.npm run build
+    if you want to do change and deploy it again.you need to use two commands:
+        1.npm run build
+        2.firebase deploy
+
